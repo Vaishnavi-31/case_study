@@ -22,3 +22,17 @@ Given User open TestMeApp
 And click on Signin
 And user enter credentials
 | lalitha | Password123 |
+
+@product
+Scenario: Product purchase
+Given user open App
+And click on Sign
+And user enter credential
+| lalitha | Password123 |
+And click search button
+|Head|
+And find product
+And click on add to card
+
+
+
